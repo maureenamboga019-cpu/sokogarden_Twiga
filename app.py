@@ -3,6 +3,8 @@ from flask import *
 import pymysql
 import pymysql.cursors
 from flask_cors import CORS
+
+
 import os #allows the python code to communicate with the os
 # create flask application
 app= Flask(__name__)
